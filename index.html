@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+          <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Doniyor</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+          </nav>
+        <main class="wrapper">
+           <section class="featured-box" id="home">
+              <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Pulatov Doniyor</span>
+                </div>
+                <div class="featured-name">
+                    <p>I'm <span>Web developer</span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Junior frontend developer with a passion for creating visually stunning
+                       and user-friendly websites.
+                    </p>
+                </div>
+                <div class="social_icons">
+                    <div class="icon"><a href="https://www.instagram.com/bakhtiyorivich_701?igsh=MWVxc2drd2E0b3plcw%3D%3D&utm_source=qr"><i class="uil uil-instagram"></a></i></div>
+                    <div class="icon"><a href="https://t.me/bakhtiyorivich_21"><i class="uil uil-telegram"></i></a></div>
+                    <div class="icon"><a href="#"><i class="uil uil-facebook"></i></a></div>
+                    <div class="icon"><a href="https://github.com/bakhtiyorivich701/bakhtiyorivich701.git"><i class="uil uil-github-alt"></i></a></div>
+                </div>
+              </div>
+              <div class="featured-image">
+                <div class="image">
+                    <img src="./img/bg.jpg" alt="avatar">
+                </div>
+              </div>
+              <!-- <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="uil uil-mouse-alt"></i>
+                    <p>Scroll Down</p>
+                </a>
+              </div> -->
+
+              <div class="cursor" id="cursor" style="left: 331px; top: 132px"></div>
+              <div class="cursor2" id="cursor2" style="left: 331px; top: 132px"></div>
+              <div class="cursor3" id="cursor3" style="left: 331px; top: 132px"></div>
+           </section>
+           <section class="section" id="about">
+              <div class="top-header">
+                <h1>About Me</h1>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>My introduction</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam, aut mollitia cupiditate est magnam reiciendis blanditiis tenetur voluptatum fugiat quidem, facilis at culpa voluptate.
+                        </p>
+                        <div class="about-btn">
+                            <button class="btn" onClick="openTab(this)" href="./img/Фото.pdf" name="./img/Фото.pdf" >Download Resume <i class="uil uil-import"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>SASS</span>
+                            <span>Git & GitHub</span>
+                            <span>JavaScript</span>
+                            <span>JQuery</span>
+                            <span>AJAX</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>PHP</span>
+                            <span>MySql</span>
+                            <span>Yii</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+           </section>
+           <section class="section" id="projects">
+              <div class="top-header">
+                  <h1>Projects</h1>
+              </div>
+              <div class="project-container">
+                <div class="project-box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Completed</h3>
+                    <label>10+ Finished Projects <br><a class="a1" href="https://github.com/bakhtiyorivich701?tab=repositories" target="_blank">SHOW</a></label>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-users-alt"></i>
+                    <h3>Clients</h3>
+                    <label>25+ Happy Clients</label>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-award"></i>
+                    <h3>Experience</h3>
+                    <label>7+ Years in the field</label>
+                </div>
+              </div>
+           </section>
+           <section class="section" id="contact">
+              <div class="top-header">
+                <h1>Get in touch</h1>
+                <span>Do you have a project in your mind, contact me here</span>
+              </div>
+              <div class="row">
+                 <div class="col">
+                    <div class="contact-info">
+                        <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                        <p><i class="uil uil-envelope"></i> Email:bakhtiyorivich701@gmail.com</p>
+                        <p><i class="uil uil-phone"></i><a href="tel:33 238 21 21">Tel: +998 33 238 21 21</a> </p>
+                    </div>
+                 </div>
+                 <div class="col">
+                    <form class="form-control"  action="https://formspree.io/f/xgvwwyqq"method="POST">
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" name="lname" placeholder="Name">
+                            <input type="text" class="input-field" name="email" placeholder="Email">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Message" name="message"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn" type="submit">Send <i class="uil uil-message"></i></button>
+                        </div>
+                    </form>
+                 </div>
+              </div>
+           </section> 
+        </main>
+       <footer>
+            <div class="top-footer">
+                <p>Pulatov Doniyor .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.instagram.com/bakhtiyorivich_701?igsh=MWVxc2drd2E0b3plcw%3D%3D&utm_source=qr"><i class="uil uil-instagram"></a></i></div>
+                    <div class="icon"><a href="https://t.me/bakhtiyorivich_21"><i class="uil uil-telegram"></i></a></div>
+                    <div class="icon"><a href="#"><i class="uil uil-facebook"></i></a></div>
+                    <div class="icon"><a href="https://github.com/bakhtiyorivich701/bakhtiyorivich701.git"><i class="uil uil-github-alt"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Pulatov Doniyor</a> - All rights reserved</p>
+            </div>
+        </footer>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="java.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+
+<script>
+
+(function ($) {
+  "use strict";
+
+  document
+    .getElementsByTagName("body")[0]
+    .addEventListener("mousemove", function (n) {
+      (t.style.left = n.clientX + "px"),
+        (t.style.top = n.clientY + "px"),
+        (e.style.left = n.clientX + "px"),
+        (e.style.top = n.clientY + "px"),
+        (i.style.left = n.clientX + "px"),
+        (i.style.top = n.clientY + "px");
+    });
+  var t = document.getElementById("cursor"),
+    e = document.getElementById("cursor2"),
+    i = document.getElementById("cursor3");
+  function n(t) {
+    e.classList.add("hover"), i.classList.add("hover");
+  }
+  function s(t) {
+    e.classList.remove("hover"), i.classList.remove("hover");
+  }
+})(jQuery);
+
+new Snowflakes();
+
+let docTitle = document.title;
+      window.addEventListener("blur", () => {
+        document.title = "Come back 😕";
+      });
+
+      window.addEventListener("focus", () => {
+        document.title = docTitle;
+      });
+
+
+      function openTab(th)
+  {
+    window.open(th.name,'_blank');
+  }
+
+</script>  
+</body>
+</html>
